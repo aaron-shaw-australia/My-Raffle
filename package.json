@@ -1,0 +1,20 @@
+{
+  "name": "my-lottery",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "semantic-ui-react": "^0.79.0",
+    "web3": "^1.0.0-beta.26"
+  },
+  "scripts": {
+    "main": "server.js",
+    "start": "node server.js",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
